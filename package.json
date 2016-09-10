@@ -1,0 +1,49 @@
+{
+  "name": "angular-syncronizer",
+  "version": "1.0.0",
+  "description": "small library to replace angular resource/restAngular/direct $http calls",
+  "main": "dist/angular-syncronizer.js",
+  "scripts": {
+    "test": "node_modules/.bin/eslint src/*.js src/**/*.js",
+    "build": "node_modules/.bin/webpack",
+    "prepush": "npm test",
+    "precommit": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliaksandr-master/angular-syncronizer.git"
+  },
+  "keywords": [
+    "angular",
+    "translate",
+    "tiny",
+    "locale",
+    "localization",
+    "translations",
+    "en",
+    "vocabulary",
+    "multilang",
+    "multilanguage"
+  ],
+  "author": "alxe_master",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliaksandr-master/angular-syncronizer/issues"
+  },
+  "homepage": "https://github.com/aliaksandr-master/angular-syncronizer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "6.10.4",
+    "babel-eslint": "6.1.2",
+    "babel-loader": "6.2.4",
+    "babel-plugin-transform-runtime": "6.9.0",
+    "babel-preset-es2015": "6.9.0",
+    "eslint": "3.1.0",
+    "eslint-loader": "1.4.1",
+    "eslint-plugin-angular": "^1.3.0",
+    "eslint-plugin-require-path-exists": "1.1.5",
+    "husky": "0.11.3",
+    "ng-annotate-loader": "0.1.0",
+    "webpack": "1.13.1"
+  }
+}
